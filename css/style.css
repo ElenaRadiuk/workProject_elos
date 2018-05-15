@@ -1,0 +1,648 @@
+@import 'https://fonts.googleapis.com/css?family=Indie+Flower';
+    
+@import url(https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic);
+
+/*
+@font-face {
+    font-family: 'WilliamKidmon';
+    src: url('/font/WilliamKidmon.ttf'),
+*/
+/*    src: url('/font/brush_script.otf');*/
+/*    src: url('/font/brush_script.eot');*/
+/*    src: url('/brush_script.woff');*/
+/*   url('font/WilliamKidmon.otf') format('embedded-opentype'),*/
+/*         url('font/brush_script.woff') format('woff'),*/
+/*         url('font/WilliamKidmon.ttf') format('truetype');*/
+/*         url('font/brush_script.svg') format('svg');*/
+/*    }*/
+
+body {
+   font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*--------------------header1----------------1*/
+
+header {
+/*    background-color: #333447;*/
+/*
+    background-color: #f8f8f8;
+    background-color: #FFFFE6;
+*/
+
+}
+.header-top h2 {
+    font-family: cursive;
+/*    font-family: 'WilliamKidmon';*/
+/*    color: lightgrey;*/
+    color: #f5d833;
+    padding-bottom: 10px;
+}  
+
+
+.header-top a {
+    color: gray;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.header-top a:hover {
+    color: #f5d833;
+}
+.header-top .glyphicon-earphone {
+    color: #f5d833;
+}
+/*.header-top .fa-vk {color: #f5d833;}*/
+ 
+.navbar-default .navbar-brand {color: #f5d833;}
+.navbar {
+    border: 1px solid transparent;
+    margin-bottom: 0px;
+/*    background-color: #FFFAFA;*/
+/*    background-color: lightyellow;*/
+/*    background-color: #F8F8F8; */
+}
+
+.header-top {
+    text-align: center;
+}
+
+.social a {
+    text-align: center;
+    position: relative;
+    top: -12px;
+}
+
+/*--------------------end header1----------------1*/
+
+/*#ffffe6;*/
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #f5d833;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #f5d833;
+}
+
+.navbar-default {
+/*    background-color: #333447;*/
+    background-color: #FFFFC2;
+/*    background-color: #FFFF80;*/
+    background-color: #FFFFE6;
+/*    border-color: lightgray;*/
+}
+
+
+
+
+
+.slider-main {
+    padding: 0px !important;
+/*    background-color: #FFFFC2 !important;*/
+}
+
+
+.sale {
+
+    background-image: url(../img/bg_sale2_2.jpg);
+
+    background-size: 100%;
+}
+
+.block_sale {
+    margin-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    border: 1px solid white;
+    background-color: rgba(255,255,255,0.7);
+    margin-bottom: 60px;
+}
+.block_sale h3 {
+    color: orange;
+}
+
+.article {
+    padding-top: 50px;
+    padding-bottom: 45px;
+    background-color: #FFFFE6;
+    text-align: center;
+}
+
+.article h4 {
+    font-weight: 600;
+}
+
+.article p {
+    font-size: 14px;
+    text-align: left;
+}
+
+
+.about-studio {
+    padding-top: 40px;
+    padding-bottom: 45px;
+    background-color: #FFFFE6;
+    text-align: justify;
+}
+
+.about-studio li {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: justify;
+    text-align: center;
+}
+
+.about-studio ul {
+    padding-left: 10px;
+}
+
+.service {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+/*
+.service p {
+    text-align: left;
+}
+*/
+
+.service img {
+    padding-top: 30px;
+    
+}
+.img-center {
+    text-align: center;
+}
+.service h2 {
+    color: #f5d833;
+/*    color: orange;*/
+    text-align: center;
+    font-weight: 600;
+}
+
+.h2-main {
+    color: #f5d833;
+/*    color: orange;*/
+    text-align: center;
+    font-weight: 600;
+}
+.btn-info {
+    
+    color: orange;
+    background-color: transparent;
+    border-color: orange;
+}
+.btn-info:hover {
+    background-color: orange;
+    color: beige;
+    border-color: orange;
+}
+
+/*--------------end cont page--------------------*/
+/*
+.contacts_page {
+    background-color: #333447;
+    padding-top: 30px;
+    color: beige; 
+}
+*/
+
+.contacts_page {
+/*    background-image: url(img/01forFooter.png);*/
+/*    background-image: url(img/02forFooter.png);*/
+     
+    background-image: url(../img/bg_sale2_2.jpg);
+/*    background-color: #333447;*/
+/*    height: 450px;*/
+    padding-top: 30px;
+/*    color: grey;*/
+}
+
+.contacts_page p {
+    padding-top: 73px;
+    
+}
+
+.contacts_page ul {
+    padding-left: 10px;
+    
+}
+.contacts_page ul li {
+    list-style: none;
+    padding-bottom: 15px;
+    
+}
+
+
+.contacts_page a {
+    color: black;
+    text-decoration: none;
+}
+.contacts_page a:hover {
+    color: orange;
+}
+.contacts_page span {
+    color: #31b0d5
+}
+
+.contacts_page h3 {
+    font-weight: bold;
+}
+
+address {
+    margin-bottom: 5px;
+}
+
+.btn-default {
+    background-color: #333447;
+    border-color: beige;
+    color: beige;
+}
+.copyright {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.area_cont {
+    background-color: #FFFFE6;
+    opacity: 0.7;
+    padding-top: 5px;
+    max-width: 400px;
+}
+
+.contacts_page2 {
+    padding-top: 20px;
+    background-color:#FFFFE6; 
+}
+
+.cont_serv {
+    padding-top: 90px;
+}
+
+#btn-cont {background-color: grey;}
+/*#btn-cont:hover {color: yellow;}*/
+/*--------------end cont page--------------------*/
+
+
+
+.contacts {
+    padding-top: 30px;
+    color: beige; 
+}
+
+footer {
+    background-color: #333447;
+}
+
+.contacts p {
+    padding-top: 73px;
+    
+}
+
+.contacts ul {
+    padding-left: 10px;
+    
+}
+.contacts ul li {
+    list-style: none;
+    padding-bottom: 15px;
+    
+}
+
+
+.contacts a {
+    color: beige;
+    text-decoration: none;
+}
+.contacts a:hover {
+    color: orange;
+}
+.contacts span {
+    color: #31b0d5
+}
+
+.contacts h3 {
+    font-weight: bold;
+}
+
+address {
+    margin-bottom: 5px;
+}
+
+.btn-default {
+    background-color: #333447;
+    border-color: beige;
+    color: beige;
+}
+.copyright {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+/*---------------------sale------------------*/
+
+.elos-sale {
+/*    padding-bottom: 30px;*/
+    padding-top: 45px;
+}
+
+/*
+.elos-sale h3 {
+    color: darkgray;
+    font-weight: 600;
+}
+*/
+
+.elos-sale h4 {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    border: 2px solid lemonchiffon;
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+}
+
+.elos-sale ol {
+    padding-left: 15px;
+}
+
+.elos-sale img {
+    padding-bottom: 25px;
+}
+
+.oldPriceS {
+	text-decoration: line-through;
+}
+
+.newPriceS {
+	color: green;
+	font-size: 16px;
+}
+
+/*--------------------end sale-------------------*/
+
+/*---------------------articles------------------*/
+.articles {
+    background: url(../img/sun1_picForPrice.png) no-repeat fixed;
+    background-position: 7% 15%;
+}
+.articles li {
+    list-style: none;
+    padding-top: 25px;     
+}
+
+.articles  ul {padding-left: 0;}
+.articles li a {
+    text-decoration: none;
+    color: black;
+}
+
+.articles li a:hover {
+    color: orange;
+}
+
+.fa-sun-o {color: orange;}
+
+.articles h3 {
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 600;
+/*    color: grey;*/
+}
+
+/*---------------------price------------------*/
+
+.service_table {
+/*
+    background-color: #fffffa;
+    background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+*/
+    background: url(../img/sun1_picForPrice.png) no-repeat fixed;
+    background-position: 7% 15%;
+    
+/*    background: no-repeat;*/
+/*    background-attachment: fixed; */
+    
+}
+
+.service_table h3 {
+    text-align: center;
+    color: grey;
+}
+
+
+
+.price_item {
+/*    background-color: #FFFFBF;*/
+/*
+    padding-left: 0px;
+    padding-right: 0px;
+*/
+}
+.price_item h4 {
+    text-align: center;
+    margin-top: 1px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+/*    padding-left: 15px;*/
+     
+/*    height: 50px;*/
+    font-family: 'Marmelad', sans-serif;
+/*    color: ivory;*/
+    font-weight: bolder;
+}
+
+
+.oldPrice {
+    text-decoration: line-through;
+    color: orange;
+}
+
+.newYear {
+    color: orange;
+}
+
+
+.sale_row {
+    padding-bottom: 30px;
+}
+
+.link-site {
+/*    color: orange;*/
+    font-weight: 600;
+    border: 2px solid orange;
+}
+
+.ey-about {
+/*    background-color: #ffffe6; */
+    background-color: #ffffe6;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+}
+
+/*
+.ey-about p {
+    font-size: 14px;
+}
+*/
+.ey-about h3 {
+    color: orange;
+    font-weight: 600;
+}
+
+.ey-about2 {
+/*    background-color: #ffffe6; */
+    background-color: #FFFFBF;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+
+.ee-about {
+/*    background-color: #ffffe6; */
+    background-color: #ffffe6;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.ee-about h3 {
+    color: orange;
+    font-weight: 600;
+}
+
+.ee-about2 {
+/*    background-color: #ffffe6; */
+    background-color: #FFFFBF;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.ee-about2 h5 {
+    font-weight: 600;
+}
+
+.orange {
+    color: orange;
+}
+
+.bullet {
+    margin-left: 0;
+    list-style: none;
+    counter-reset: li;
+}
+.bullet li {
+    position: relative;
+    margin-bottom: 1.5em;
+    border: 3px solid #CADFCF;
+    padding: 0.6em;
+    border-radius: 4px;
+    background: #FEFEFE;
+    color: #231F20;
+    font-family: "Trebuchet MS", "Lucida Sans";
+}
+.bullet li:before {
+    position: absolute;
+    top: -0.7em;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    font-size: 16px;
+    font-weight: bold;
+    color: #DCC24B;
+    background: #FEFEFE;
+    border-radius: 50%;
+    counter-increment: li;
+    content: counter(li);
+}
+
+.wrapper_epil {text-align: justify;}
+
+/*    -----   dif  article  -------------------*/
+.article_elektroepil, .article_oshibki_pri_depilyatsii, .article_depilyatsiya_britvoi, .article_dep_kremi, .vosk_depilyatsiya, .stat_krasiv2, .dep_epil_razn2, .disk_pri-brit2, .teh_udal_volos2, .teh-ydalen-volos2, .article_novinki_v_kosm, .Protsedura_Elos_Epil2, .article_tehnologiya_Elos-epil, .Udalenie_volos_navsegda2, .Kak_izbavitsya_ot_nezhelatelnih_volos2, .article_Epilyatsiya_v_domashnih_usloviyah, .udalenie_volos_navsegda_metod2, .Elos_epilyatsiya2, .volosi2, .lazerepil {
+    background-color: #ffffe6;
+    text-align: justify;
+}
+.article_volosi {text-align: justify;}
+
+.elos-advantages {
+    list-style: none;
+}
+
+/*.paginationP {text-align: left; color: red;}*/
+
+/*    -----   end  article  -------------------*/
+
+
+body a:focus {outline: outline: none !important;}
+body a:focus {border: none;}
+button:active, button:focus {
+  outline: none !important;
+}
+button::-moz-focus-inner {
+  border: 0 !important;
+}
+
+
+.to_top {
+    text-align: center;
+    display: none;
+    position: fixed;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 46px;
+    top: 80%;
+    right: 34px;
+    background-color: #333447;
+    opacity: 0.5;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.12), 3px 4px 8px 0px rgba(0, 0, 0, 0.11);
+    z-index: 5;
+    -webkit-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+}
+
+.to_top:hover {
+    color: #fff;
+    background: #f0ad4e;
+}
+
+
+.fa-vk, .fa-odnoklassniki, .fa-instagram, .fa-facebook {color: #31b0d5;}
+
+.fa-vk:hover, .fa-odnoklassniki:hover, .fa-instagram:hover, .fa-facebook:hover {color: orange;}
+
+
+@media screen and (max-width: 480px) {
+    #fade1-1 {font-size: 18px;}
+    #fade2-1 {font-size: 18px;}
+    .contacts p {padding-top: 25px;}
+    .header-top h2 {font-size: 24px;}
+    .contacts {text-align: center;}
+    .carousel-caption h3 {font-size: 16px;}
+    .carousel-caption p {font-size: 12px;}
+    #hideforMob {display: none;}
+   }
+   
+@media screen and (max-width: 480px) {
+    .box{width:230px;
+  height:210px;
+  
+}
+}
+
+@media screen and (max-width: 768px) {
+   
+    .contacts {text-align: center;}
+   }
