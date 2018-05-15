@@ -1,0 +1,4 @@
+  #img
+    /img/*
+    .htaccess
+    /dist-bxslider/LICENSE.md
